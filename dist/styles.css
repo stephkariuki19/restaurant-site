@@ -1,0 +1,150 @@
+/*HOME PAGE*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+  background: white;
+    display: flex;
+    justify-content: space-between;
+    color:#f59e0b;
+}
+body{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif,'Oxygen', sans-serif;
+}
+.name{
+    margin-left: 20px;
+}
+.first{
+font-size: 20px;
+}
+.second{
+    font-size: 40px;
+    margin-left: 5px;
+}
+.third{
+    font-size: 20px;
+    margin-left: 45px;
+    margin-bottom: 19px;
+}
+.buttons{
+    
+    margin-right: 60px;
+}
+.btn{
+    margin:30px;
+    color:#f59e0b;
+    background: none;
+    border: none;
+    transition:border 2s ;
+    transition-timing-function: ease-in;
+}
+.btn:hover{
+border-bottom: 1px solid #f59e0b;
+}
+.home-content{
+background-image: url("https://images.unsplash.com/photo-1485677959733-60c357f80d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVhdCUyMGdyaWxsaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+position: relative;
+bottom: 21px;
+}
+.text{
+    text-align: center;
+   
+    position: relative;
+    top: 80px;
+    color: white;
+    width:700px;
+    left:300px;
+}
+.tagline{
+    color: #f59e0b;
+}
+.title{
+    font-size: 65px;
+}
+.description{
+    font-family: 'Oxygen', sans-serif;
+}
+/*MENU*/
+.menu-content{
+    background-color: whitesmoke;
+}
+.menu{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 15px;
+}
+.image{
+    width: 170px;
+    height: 170px;
+    margin-top: 20px;
+}
+.menu-item{
+    display: flex;
+    padding: 10px;
+    transition: scale 2s;
+    transition-timing-function: ease-in;
+}
+.menu-item:hover{
+    transform: scale(1.09);
+}
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(2,450px);
+    grid-column-gap:80px;
+    margin-left: 170px;
+    
+    grid-row-gap:60px;
+}
+.dish-title{
+    font-weight: 700;
+}
+
+/*CONTACT PAGE*/
+.contact-content{
+background-image: url("https://cdn.pixabay.com/photo/2020/06/30/15/03/table-5356682__340.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+color: white;
+margin-top: 0;
+padding: 0;
+
+}
+.overlay{
+background-color: rgba(0, 0, 0, 0.5);
+height: 100vh;
+width: 100%;
+}
+.contact-text{
+    border-bottom:1px solid white;
+    text-align: center;
+    padding-top: 250px;
+}
+.contact-text p,h2{
+font-family: Oxygen;
+}
+.tag{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.para{
+    margin-bottom: 20px;
+}
+.reserve{
+    background-color: #f59e0b;
+    color: white;
+    border: none;
+    height:45px;
+    width:130px;
+    margin-bottom: 22px;
+    border-radius: 20px;
+}
+.call{
+    margin-bottom: 5px;
+}
