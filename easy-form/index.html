@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>SIGN UP FORM</title>
+</head>
+<body>
+    <div class="form-container">
+        <div class="image-section">
+            <h1 class="banner">Mama Cooks</h1>
+        </div>
+        <div class="form-section">
+            <span>* fill all fields</span>
+            <form action="">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Jane" maxlength="10" minlength="3">
+                </div>
+
+                <div>
+                    <label for="second-name">Second Name</label>
+                    <input type="text" name="second-name" id="second-name" placeholder="Doe" maxlength="10" minlength="3">
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="janedoe@gmail.com" >
+                </div>
+
+                <div>
+                    <label for="first-password">Password</label>
+                    <input  type="password" name="first-password" id="first-password" >
+                </div>
+
+                <div>
+                    <label for="confirm-password" >Confirm Password <span class="changing-text"></span></label>
+                    <input type="password" name="confirm-password" id="confirm-password" > 
+                </div>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="./form.js"></script>
+</html>

@@ -1,0 +1,84 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(71, 69, 63);
+}
+.form-container{
+    margin-top: 8%;
+    display: flex;
+    width:1100px;
+    height:400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.6);
+}
+.image-section{
+   border-radius: 10px 0px 0px 10px;
+    width:500px;
+    background-image: url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.form-section{
+    min-width:600px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+    
+}
+.image{
+    height:400px;
+    
+}
+.banner{
+    color: orange;
+    position: relative;
+    left:220px;
+    font-size:42px ;
+    font-family: 'Merienda One', cursive;
+ bottom: 20px;
+}
+span{
+    color: red;
+}
+input{
+    display: block;
+    margin: 0px 0px 15px 20px;
+    padding: 4px;
+    width:80%;
+    height: 5%;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid  black;
+    cursor:pointer
+}
+label{
+    padding-left: 15px;
+}
+
+input:focus{
+    border-bottom: 1px solid  orange;
+}
+input:invalid{
+    border-bottom: 1px solid  red;
+}
+button{
+    background-color: black;
+    color: white;
+    outline: 1px solid white;
+    outline-offset: -4px;
+    border-radius: 5px;
+    height: 35px;
+    width:100px;
+    margin-left: 220px;
+    margin-top: 5px;
+}
+button:hover{
+    opacity: 0.9;
+}
+.changing-text{
+    margin-left: 15px;
+}
